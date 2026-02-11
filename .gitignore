@@ -1,0 +1,7 @@
+github_key
+github_key.pub
+
+
+node_modules/
+
+.env
