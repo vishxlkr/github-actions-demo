@@ -19,6 +19,6 @@ jobs:
               username: ubuntu
               key: ${{ secrets.SSH_KEY }}
               script: |
-                 cd /home/ubuntu/ci-cd-testing/server
+                 cd /home/ubuntu/github-actions-demo/server
                  git pull
                  sudo docker compose up -d --build
